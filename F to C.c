@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include<conio.h>
-int main(){
-    float c,f;
-    printf("Enter the degree in farhenheit");
-    scanf("%f", &f);
-    c=(f-32)*(5/9);
-    printf("%f degrees farhenheit when converted into celsius is = %f degrees centigrade", f,c);
+int main()
+{
+    float C,F;
+    printf("Enter the temperature in farhenheit\n");
+    scanf("%f", &F);
+    c=(F-32)*5/9;
+    printf("The temperature in degree Celsius is %f",C);
     getch();
     return 0;
 }
